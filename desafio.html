@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heróis</title>
+
+</head>
+<style>
+    body{
+        background-color: rgb(29, 187, 187);
+        color:white;
+        font:normal 18pt Arial;
+    }
+
+</style>
+
+<body>
+    <h1>Criando classe de heróis</h1>
+
+   <script>
+        window.alert('Ola, hoje vamos criar para você uma classe de Héeroi! precisamos de um NOME, IDADE e CLASSE.')
+        let nome = window.prompt('Escreva o NOME do seu Héroi')
+        let idade = window.prompt('Digite a IDADE do seu heroi')
+        let classe = window.prompt('Digite a CLASSE do seu Heroi, temos as seguintes opções: guerreiro, mago, monge, ninja')
+        document.writeln(`O nome do seu heroi é ${nome} ele tem ${idade} anos de idade é sua classe é ${classe}`)
+        let atak
+        
+
+        if (classe === "guerreiro") {
+             atak = window.confirm('atacou com (ESPADA) Respiração do trovão primeira forma')
+        } else if( classe === "mago"){
+             atak = window.confirm('Atacou com (MAGIA) esplosão de fogo do inferno')
+        }else if( classe === "monge"){
+             atak = window.confirm("Atacou com (ARTES MARCIAIS) shoriuken")
+        }else (classe === "ninja")
+             atak = windo.confirm('Atacou com (Shuriken) kutiuse no jutso')
+       
+             
+    </script>
+
+</body>
+
+</html>
